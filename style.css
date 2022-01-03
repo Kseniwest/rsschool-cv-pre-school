@@ -50,7 +50,8 @@ html {
 .main-container {
    display: flex;
    flex-wrap: wrap;
-} 
+}
+ 
 .section {
    width: 50%;
 }
@@ -85,15 +86,12 @@ html {
 
 .profile-img {
    border:  3px solid rgb(189, 157, 220);
+   width: 300px;
+   height: 300px;
 }
 
 .link:hover {
    color: white;
-}
-
-.profile-img {
-   width: 300px;
-   height: 300px;
 }
 
 .pre{
@@ -113,6 +111,13 @@ footer {
    color: rgb(0, 0, 0); 
 }
 
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(189, 157, 220);
+}
+
 .footer-rsschool > a > img, .rss {
    width: 110px;
    background-color: rgb(189, 157, 220);
@@ -122,7 +127,6 @@ footer {
 
 .footer-year, .footer-github {
    width: 110px;
-   
    background-color: rgb(189, 157, 220);
    padding: 0px;
    margin-left: 0px; 
@@ -135,19 +139,16 @@ margin-top: -25px;
 }
 
 .name-title {
-   padding-left: 90px;
+   margin-left: -550px;
 }
 
-h2 {
-   display: block;
-   font-size: 17px;
-   padding-left: 90px;
+.name-title2 {
+   margin-left: -450px;
    color: rgb(176, 70, 176);
-   
 }
 
 .profile-img {
-   margin-left: 90px;
+   margin-left: -250px;
 }
 
 .section-title {
@@ -155,6 +156,12 @@ h2 {
    font-weight: 900;
    line-height: 1.0;
    color: rgb(0, 0, 0);
-   font-size: 20px;
-   
+   font-size: 20px;  
+}
+
+.section-profile {
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding: 50px 30px 35px;
 }
