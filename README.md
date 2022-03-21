@@ -1,3 +1,3 @@
-https://Kseniwest.github.io/rsschool-cv/
+https://Kseniwest.github.io/rsschool-cv-pre-school/
 
-https://Kseniwest.github.io/rsschool-cv/cv
+https://Kseniwest.github.io/rsschool-cv-pre-school/cv
